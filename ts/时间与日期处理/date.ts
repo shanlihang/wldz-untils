@@ -32,3 +32,8 @@ export const timeFormat = (date:number | string | Date = new Date()) => {
 export const dateTimeFormat = (date:number | string | Date = new Date()) => {
     return dayjs(date).format(date_time_sign);
 }
+
+//获取多久之前的时间
+export const getDataTimeBefore = (num:number,type:string,sign:string) => {
+    return dayjs().subtract(num, type).format(sign)
+}

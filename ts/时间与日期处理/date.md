@@ -31,3 +31,12 @@
 
 ---
 
+##### 获取日期时间
+1. 获取多久之前的时间：getDataTimeBefore(num,type)
+    - num：表示获取多久前的日期
+    - type：表示日期类型，可以为：day,week,month,quarter(季度),year,hour,minute,second
+    - sign：时间格式化格式
+
+
+
+---
